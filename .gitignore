@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Data & outputs (dataset và kết quả không commit)
+data/raw/
+data/processed/
+results/
+
+# Env / logs
+.env
+.venv/
+*.log
