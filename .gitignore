@@ -1,18 +1,16 @@
-# Python
-__pycache__/
-*.pyc
-.ipynb_checkpoints/
-
-# OS
-Thumbs.db
-.DS_Store
-
-# Data & outputs (dataset và kết quả không commit)
+# data & results (do not commit)
 data/raw/
 data/processed/
 results/
 
-# Env / logs
-.env
+# python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# env / cache
+.conda/
 .venv/
-*.log
+.env
+.vscode/
+.DS_Store

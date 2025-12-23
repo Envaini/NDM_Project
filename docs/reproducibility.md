@@ -1,26 +1,22 @@
-# Reproducibility (Phase 1)
+# Reproducibility
 
-## Fixed seed
-Seed chuẩn: 42
-Mọi notebook/script đều phải set seed cho:
-- Python random
-- NumPy
-- (nếu dùng) TensorFlow/PyTorch
+## Environment (Windows + Anaconda)
+1) Create env
+- conda env create -f configs/environment.yml
+- conda activate ndm
 
-## Config saving rule
-Mỗi experiment tạo 1 thư mục:
-results/exp_<YYYYMMDD_HHMM>_<short_name>/
+2) Install python deps (pinned)
+- pip install -r configs/requirements_pip.txt
 
-Bắt buộc chứa:
-- config.yaml (hoặc config.json)
-- requirements.txt (pip freeze)
-- notes.md (mô tả dữ liệu, seed, tham số, kết quả)
+3) Sanity check
+- python -c "import numpy, scipy, pandas, sklearn, matplotlib, librosa; print('OK')"
 
-## Version logging
-- Lưu pip freeze vào results/exp_.../requirements.txt
-- Ghi chú version Python/OS nếu cần
+## Seeds (mandatory)
+- Python: random.seed(SEED)
+- NumPy: np.random.seed(SEED)
+- (Later) sklearn: set random_state=SEED where applicable
 
-## Dataset rule
-Dataset để local tại:
-data/raw/CWRU/...
-Không commit dataset lên git.
+## Results logging (mandatory)
+- Save configs (*.yaml/*.json) for every run into results/
+- Save package versions:
+  - pip freeze > results/<run_id>/requirements_pip.txt
