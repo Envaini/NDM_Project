@@ -6,7 +6,7 @@ Paper-core pipeline:
 Log-Mel → (MBH-LPQ + VGGish) → PCA → EDA → cosine matching → WS sweep
 
 ## Structure
-configs/ data/ docs/ notebooks/ original_paper/ results/ src/ tests/
+configs/ data/ docs/ experiments/ notebooks/ original_paper/ results/ src/ tests/
 
 ## Local environment
 - Anaconda env: ndm
