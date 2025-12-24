@@ -13,6 +13,10 @@
 conda activate ndm
 # notebook
 
+**Đồ án:** Phân loại trạng thái máy móc từ tín hiệu rung  
+**Bài báo:** *Vibration signal analysis for rolling bearings faults diagnosis based on deep–shallow features fusion*  
+**Tài liệu môn học:** Bishop — *Pattern Recognition and Machine Learning* (2006)
+
 Mục tiêu: HIỂU → TÁI HIỆN (paper-core) → GIẢI THÍCH → MỞ RỘNG
 
 Paper-core pipeline: Log-Mel → (MBH-LPQ + VGGish) → PCA → EDA → cosine matching → WS sweep
