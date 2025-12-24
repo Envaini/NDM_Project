@@ -1,0 +1,15 @@
+{
+  "window_type": "hamming",
+  "win_length": 512,
+  "hop_length": 256,
+  "n_fft": 512,
+
+  "use_mel": true,
+  "mel_bins": 64,
+  "fmin": 0.0,
+  "fmax": null,
+
+  "power": 2.0,
+  "log_eps": 1e-08,
+  "to_db": false
+}

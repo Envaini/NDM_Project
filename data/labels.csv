@@ -1,0 +1,11 @@
+relpath,label
+data/raw/CWRU/normal_baseline/Normal_1.mat,H
+data/raw/CWRU/48k_drive_end_fault/B007_1.mat,BF_007
+data/raw/CWRU/48k_drive_end_fault/B014_1.mat,BF_014
+data/raw/CWRU/48k_drive_end_fault/B021_1.mat,BF_021
+data/raw/CWRU/48k_drive_end_fault/IR007_1.mat,IRF_007
+data/raw/CWRU/48k_drive_end_fault/IR014_1.mat,IRF_014
+data/raw/CWRU/48k_drive_end_fault/IR021_1.mat,IRF_021
+data/raw/CWRU/48k_drive_end_fault/OR007@6_1.mat,ORF_007
+data/raw/CWRU/48k_drive_end_fault/OR014@6_1.mat,ORF_014
+data/raw/CWRU/48k_drive_end_fault/OR021@6_1.mat,ORF_021

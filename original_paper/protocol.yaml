@@ -1,0 +1,62 @@
+project:
+  seed: 42
+
+data:
+  cwru_root: data/raw/CWRU
+  fs_hz: 48000
+
+  # 10 lớp: H + B/IR/OR (0.007/0.014/0.021)
+  # OR chọn @6 để đúng 10 lớp (vì bạn có OR@3/@6/@12)
+  classes_10:
+    H: normal_baseline/Normal_1.mat
+    B007: 48k_drive_end_fault/B007_1.mat
+    B014: 48k_drive_end_fault/B014_1.mat
+    B021: 48k_drive_end_fault/B021_1.mat
+    IR007: 48k_drive_end_fault/IR007_1.mat
+    IR014: 48k_drive_end_fault/IR014_1.mat
+    IR021: 48k_drive_end_fault/IR021_1.mat
+    OR007: 48k_drive_end_fault/OR007@6_1.mat
+    OR014: 48k_drive_end_fault/OR014@6_1.mat
+    OR021: 48k_drive_end_fault/OR021@6_1.mat
+
+  sample_len: 4710
+  samples_per_class: 100
+
+  split:
+    train_after_val_per_class: 64
+    val_per_class: 16
+    test_per_class: 20
+
+preprocess:
+  normalize: paper  # (x-mean)/max(|x|)
+  spectrogram:
+    n_fft: 512
+    win_length: 512
+    hop_length: 256   # 50% overlap
+    mel_bins: 64
+    log_eps: 1.0e-6
+    target_frames: 96 # 96x64 đúng VGGish-form
+
+features:
+  shallow:
+    lbp: { enabled: true, P: 8, R: 1, method: default }
+    ldp: { enabled: true, k_top: 3 }
+    lpq: { enabled: true, R_grid: [3, 5, 7] }
+    mbh_lpq: { enabled: true, R: 7, b_grid: [1,2,4,6,8,10,12] }
+
+  deep:
+    # Nếu máy bạn bị lỗi VGGish do version torchaudio,
+    # tắt vggish và dùng vgg16 làm deep vẫn chạy được Phase 9.
+    vggish: { enabled: true }
+    vgg16:  { enabled: true, layer: fc6 }
+
+reduce_and_classify:
+  pca: { enabled: true, n_components: 128 }
+  eda: { enabled: true, reg_eps: 1.0e-6 }
+
+fusion:
+  ws_alpha_grid: [0.1,0.2,0.3,0.4,0.5,0.6,0.7,0.8,0.9]
+
+output:
+  results_dir: results/phase9
+  cache_dir: results/cache_phase9

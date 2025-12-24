@@ -14,3 +14,15 @@ __pycache__/
 .env
 .vscode/
 .DS_Store
+
+**/.ipynb_checkpoints/
+
+__pycache__/
+.ipynb_checkpoints/
+*.pyc
+
+# big outputs
+results/run_all/
+results/cache_phase9/
+*.npy
+*.pt

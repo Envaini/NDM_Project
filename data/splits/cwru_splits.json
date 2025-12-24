@@ -1,0 +1,718 @@
+{
+  "meta": {
+    "fs": 48000,
+    "chunk_seconds": 1.0,
+    "seed": 42,
+    "note": "Split by non-overlapping chunks (anti-leak) before segmentation"
+  },
+  "records": {
+    "Normal_1.mat::chunk000": {
+      "relpath": "data/raw/CWRU/normal_baseline/Normal_1.mat",
+      "label": "H",
+      "start": 0,
+      "end": 48000
+    },
+    "Normal_1.mat::chunk001": {
+      "relpath": "data/raw/CWRU/normal_baseline/Normal_1.mat",
+      "label": "H",
+      "start": 48000,
+      "end": 96000
+    },
+    "Normal_1.mat::chunk002": {
+      "relpath": "data/raw/CWRU/normal_baseline/Normal_1.mat",
+      "label": "H",
+      "start": 96000,
+      "end": 144000
+    },
+    "Normal_1.mat::chunk003": {
+      "relpath": "data/raw/CWRU/normal_baseline/Normal_1.mat",
+      "label": "H",
+      "start": 144000,
+      "end": 192000
+    },
+    "Normal_1.mat::chunk004": {
+      "relpath": "data/raw/CWRU/normal_baseline/Normal_1.mat",
+      "label": "H",
+      "start": 192000,
+      "end": 240000
+    },
+    "Normal_1.mat::chunk005": {
+      "relpath": "data/raw/CWRU/normal_baseline/Normal_1.mat",
+      "label": "H",
+      "start": 240000,
+      "end": 288000
+    },
+    "Normal_1.mat::chunk006": {
+      "relpath": "data/raw/CWRU/normal_baseline/Normal_1.mat",
+      "label": "H",
+      "start": 288000,
+      "end": 336000
+    },
+    "Normal_1.mat::chunk007": {
+      "relpath": "data/raw/CWRU/normal_baseline/Normal_1.mat",
+      "label": "H",
+      "start": 336000,
+      "end": 384000
+    },
+    "Normal_1.mat::chunk008": {
+      "relpath": "data/raw/CWRU/normal_baseline/Normal_1.mat",
+      "label": "H",
+      "start": 384000,
+      "end": 432000
+    },
+    "Normal_1.mat::chunk009": {
+      "relpath": "data/raw/CWRU/normal_baseline/Normal_1.mat",
+      "label": "H",
+      "start": 432000,
+      "end": 480000
+    },
+    "B007_1.mat::chunk000": {
+      "relpath": "data/raw/CWRU/48k_drive_end_fault/B007_1.mat",
+      "label": "BF_007",
+      "start": 0,
+      "end": 48000
+    },
+    "B007_1.mat::chunk001": {
+      "relpath": "data/raw/CWRU/48k_drive_end_fault/B007_1.mat",
+      "label": "BF_007",
+      "start": 48000,
+      "end": 96000
+    },
+    "B007_1.mat::chunk002": {
+      "relpath": "data/raw/CWRU/48k_drive_end_fault/B007_1.mat",
+      "label": "BF_007",
+      "start": 96000,
+      "end": 144000
+    },
+    "B007_1.mat::chunk003": {
+      "relpath": "data/raw/CWRU/48k_drive_end_fault/B007_1.mat",
+      "label": "BF_007",
+      "start": 144000,
+      "end": 192000
+    },
+    "B007_1.mat::chunk004": {
+      "relpath": "data/raw/CWRU/48k_drive_end_fault/B007_1.mat",
+      "label": "BF_007",
+      "start": 192000,
+      "end": 240000
+    },
+    "B007_1.mat::chunk005": {
+      "relpath": "data/raw/CWRU/48k_drive_end_fault/B007_1.mat",
+      "label": "BF_007",
+      "start": 240000,
+      "end": 288000
+    },
+    "B007_1.mat::chunk006": {
+      "relpath": "data/raw/CWRU/48k_drive_end_fault/B007_1.mat",
+      "label": "BF_007",
+      "start": 288000,
+      "end": 336000
+    },
+    "B007_1.mat::chunk007": {
+      "relpath": "data/raw/CWRU/48k_drive_end_fault/B007_1.mat",
+      "label": "BF_007",
+      "start": 336000,
+      "end": 384000
+    },
+    "B007_1.mat::chunk008": {
+      "relpath": "data/raw/CWRU/48k_drive_end_fault/B007_1.mat",
+      "label": "BF_007",
+      "start": 384000,
+      "end": 432000
+    },
+    "B007_1.mat::chunk009": {
+      "relpath": "data/raw/CWRU/48k_drive_end_fault/B007_1.mat",
+      "label": "BF_007",
+      "start": 432000,
+      "end": 480000
+    },
+    "B014_1.mat::chunk000": {
+      "relpath": "data/raw/CWRU/48k_drive_end_fault/B014_1.mat",
+      "label": "BF_014",
+      "start": 0,
+      "end": 48000
+    },
+    "B014_1.mat::chunk001": {
+      "relpath": "data/raw/CWRU/48k_drive_end_fault/B014_1.mat",
+      "label": "BF_014",
+      "start": 48000,
+      "end": 96000
+    },
+    "B014_1.mat::chunk002": {
+      "relpath": "data/raw/CWRU/48k_drive_end_fault/B014_1.mat",
+      "label": "BF_014",
+      "start": 96000,
+      "end": 144000
+    },
+    "B014_1.mat::chunk003": {
+      "relpath": "data/raw/CWRU/48k_drive_end_fault/B014_1.mat",
+      "label": "BF_014",
+      "start": 144000,
+      "end": 192000
+    },
+    "B014_1.mat::chunk004": {
+      "relpath": "data/raw/CWRU/48k_drive_end_fault/B014_1.mat",
+      "label": "BF_014",
+      "start": 192000,
+      "end": 240000
+    },
+    "B014_1.mat::chunk005": {
+      "relpath": "data/raw/CWRU/48k_drive_end_fault/B014_1.mat",
+      "label": "BF_014",
+      "start": 240000,
+      "end": 288000
+    },
+    "B014_1.mat::chunk006": {
+      "relpath": "data/raw/CWRU/48k_drive_end_fault/B014_1.mat",
+      "label": "BF_014",
+      "start": 288000,
+      "end": 336000
+    },
+    "B014_1.mat::chunk007": {
+      "relpath": "data/raw/CWRU/48k_drive_end_fault/B014_1.mat",
+      "label": "BF_014",
+      "start": 336000,
+      "end": 384000
+    },
+    "B014_1.mat::chunk008": {
+      "relpath": "data/raw/CWRU/48k_drive_end_fault/B014_1.mat",
+      "label": "BF_014",
+      "start": 384000,
+      "end": 432000
+    },
+    "B014_1.mat::chunk009": {
+      "relpath": "data/raw/CWRU/48k_drive_end_fault/B014_1.mat",
+      "label": "BF_014",
+      "start": 432000,
+      "end": 480000
+    },
+    "B021_1.mat::chunk000": {
+      "relpath": "data/raw/CWRU/48k_drive_end_fault/B021_1.mat",
+      "label": "BF_021",
+      "start": 0,
+      "end": 48000
+    },
+    "B021_1.mat::chunk001": {
+      "relpath": "data/raw/CWRU/48k_drive_end_fault/B021_1.mat",
+      "label": "BF_021",
+      "start": 48000,
+      "end": 96000
+    },
+    "B021_1.mat::chunk002": {
+      "relpath": "data/raw/CWRU/48k_drive_end_fault/B021_1.mat",
+      "label": "BF_021",
+      "start": 96000,
+      "end": 144000
+    },
+    "B021_1.mat::chunk003": {
+      "relpath": "data/raw/CWRU/48k_drive_end_fault/B021_1.mat",
+      "label": "BF_021",
+      "start": 144000,
+      "end": 192000
+    },
+    "B021_1.mat::chunk004": {
+      "relpath": "data/raw/CWRU/48k_drive_end_fault/B021_1.mat",
+      "label": "BF_021",
+      "start": 192000,
+      "end": 240000
+    },
+    "B021_1.mat::chunk005": {
+      "relpath": "data/raw/CWRU/48k_drive_end_fault/B021_1.mat",
+      "label": "BF_021",
+      "start": 240000,
+      "end": 288000
+    },
+    "B021_1.mat::chunk006": {
+      "relpath": "data/raw/CWRU/48k_drive_end_fault/B021_1.mat",
+      "label": "BF_021",
+      "start": 288000,
+      "end": 336000
+    },
+    "B021_1.mat::chunk007": {
+      "relpath": "data/raw/CWRU/48k_drive_end_fault/B021_1.mat",
+      "label": "BF_021",
+      "start": 336000,
+      "end": 384000
+    },
+    "B021_1.mat::chunk008": {
+      "relpath": "data/raw/CWRU/48k_drive_end_fault/B021_1.mat",
+      "label": "BF_021",
+      "start": 384000,
+      "end": 432000
+    },
+    "B021_1.mat::chunk009": {
+      "relpath": "data/raw/CWRU/48k_drive_end_fault/B021_1.mat",
+      "label": "BF_021",
+      "start": 432000,
+      "end": 480000
+    },
+    "IR007_1.mat::chunk000": {
+      "relpath": "data/raw/CWRU/48k_drive_end_fault/IR007_1.mat",
+      "label": "IRF_007",
+      "start": 0,
+      "end": 48000
+    },
+    "IR007_1.mat::chunk001": {
+      "relpath": "data/raw/CWRU/48k_drive_end_fault/IR007_1.mat",
+      "label": "IRF_007",
+      "start": 48000,
+      "end": 96000
+    },
+    "IR007_1.mat::chunk002": {
+      "relpath": "data/raw/CWRU/48k_drive_end_fault/IR007_1.mat",
+      "label": "IRF_007",
+      "start": 96000,
+      "end": 144000
+    },
+    "IR007_1.mat::chunk003": {
+      "relpath": "data/raw/CWRU/48k_drive_end_fault/IR007_1.mat",
+      "label": "IRF_007",
+      "start": 144000,
+      "end": 192000
+    },
+    "IR007_1.mat::chunk004": {
+      "relpath": "data/raw/CWRU/48k_drive_end_fault/IR007_1.mat",
+      "label": "IRF_007",
+      "start": 192000,
+      "end": 240000
+    },
+    "IR007_1.mat::chunk005": {
+      "relpath": "data/raw/CWRU/48k_drive_end_fault/IR007_1.mat",
+      "label": "IRF_007",
+      "start": 240000,
+      "end": 288000
+    },
+    "IR007_1.mat::chunk006": {
+      "relpath": "data/raw/CWRU/48k_drive_end_fault/IR007_1.mat",
+      "label": "IRF_007",
+      "start": 288000,
+      "end": 336000
+    },
+    "IR007_1.mat::chunk007": {
+      "relpath": "data/raw/CWRU/48k_drive_end_fault/IR007_1.mat",
+      "label": "IRF_007",
+      "start": 336000,
+      "end": 384000
+    },
+    "IR007_1.mat::chunk008": {
+      "relpath": "data/raw/CWRU/48k_drive_end_fault/IR007_1.mat",
+      "label": "IRF_007",
+      "start": 384000,
+      "end": 432000
+    },
+    "IR007_1.mat::chunk009": {
+      "relpath": "data/raw/CWRU/48k_drive_end_fault/IR007_1.mat",
+      "label": "IRF_007",
+      "start": 432000,
+      "end": 480000
+    },
+    "IR014_1.mat::chunk000": {
+      "relpath": "data/raw/CWRU/48k_drive_end_fault/IR014_1.mat",
+      "label": "IRF_014",
+      "start": 0,
+      "end": 48000
+    },
+    "IR014_1.mat::chunk001": {
+      "relpath": "data/raw/CWRU/48k_drive_end_fault/IR014_1.mat",
+      "label": "IRF_014",
+      "start": 48000,
+      "end": 96000
+    },
+    "IR014_1.mat::chunk002": {
+      "relpath": "data/raw/CWRU/48k_drive_end_fault/IR014_1.mat",
+      "label": "IRF_014",
+      "start": 96000,
+      "end": 144000
+    },
+    "IR014_1.mat::chunk003": {
+      "relpath": "data/raw/CWRU/48k_drive_end_fault/IR014_1.mat",
+      "label": "IRF_014",
+      "start": 144000,
+      "end": 192000
+    },
+    "IR014_1.mat::chunk004": {
+      "relpath": "data/raw/CWRU/48k_drive_end_fault/IR014_1.mat",
+      "label": "IRF_014",
+      "start": 192000,
+      "end": 240000
+    },
+    "IR014_1.mat::chunk005": {
+      "relpath": "data/raw/CWRU/48k_drive_end_fault/IR014_1.mat",
+      "label": "IRF_014",
+      "start": 240000,
+      "end": 288000
+    },
+    "IR014_1.mat::chunk006": {
+      "relpath": "data/raw/CWRU/48k_drive_end_fault/IR014_1.mat",
+      "label": "IRF_014",
+      "start": 288000,
+      "end": 336000
+    },
+    "IR014_1.mat::chunk007": {
+      "relpath": "data/raw/CWRU/48k_drive_end_fault/IR014_1.mat",
+      "label": "IRF_014",
+      "start": 336000,
+      "end": 384000
+    },
+    "IR014_1.mat::chunk008": {
+      "relpath": "data/raw/CWRU/48k_drive_end_fault/IR014_1.mat",
+      "label": "IRF_014",
+      "start": 384000,
+      "end": 432000
+    },
+    "IR014_1.mat::chunk009": {
+      "relpath": "data/raw/CWRU/48k_drive_end_fault/IR014_1.mat",
+      "label": "IRF_014",
+      "start": 432000,
+      "end": 480000
+    },
+    "IR021_1.mat::chunk000": {
+      "relpath": "data/raw/CWRU/48k_drive_end_fault/IR021_1.mat",
+      "label": "IRF_021",
+      "start": 0,
+      "end": 48000
+    },
+    "IR021_1.mat::chunk001": {
+      "relpath": "data/raw/CWRU/48k_drive_end_fault/IR021_1.mat",
+      "label": "IRF_021",
+      "start": 48000,
+      "end": 96000
+    },
+    "IR021_1.mat::chunk002": {
+      "relpath": "data/raw/CWRU/48k_drive_end_fault/IR021_1.mat",
+      "label": "IRF_021",
+      "start": 96000,
+      "end": 144000
+    },
+    "IR021_1.mat::chunk003": {
+      "relpath": "data/raw/CWRU/48k_drive_end_fault/IR021_1.mat",
+      "label": "IRF_021",
+      "start": 144000,
+      "end": 192000
+    },
+    "IR021_1.mat::chunk004": {
+      "relpath": "data/raw/CWRU/48k_drive_end_fault/IR021_1.mat",
+      "label": "IRF_021",
+      "start": 192000,
+      "end": 240000
+    },
+    "IR021_1.mat::chunk005": {
+      "relpath": "data/raw/CWRU/48k_drive_end_fault/IR021_1.mat",
+      "label": "IRF_021",
+      "start": 240000,
+      "end": 288000
+    },
+    "IR021_1.mat::chunk006": {
+      "relpath": "data/raw/CWRU/48k_drive_end_fault/IR021_1.mat",
+      "label": "IRF_021",
+      "start": 288000,
+      "end": 336000
+    },
+    "IR021_1.mat::chunk007": {
+      "relpath": "data/raw/CWRU/48k_drive_end_fault/IR021_1.mat",
+      "label": "IRF_021",
+      "start": 336000,
+      "end": 384000
+    },
+    "IR021_1.mat::chunk008": {
+      "relpath": "data/raw/CWRU/48k_drive_end_fault/IR021_1.mat",
+      "label": "IRF_021",
+      "start": 384000,
+      "end": 432000
+    },
+    "IR021_1.mat::chunk009": {
+      "relpath": "data/raw/CWRU/48k_drive_end_fault/IR021_1.mat",
+      "label": "IRF_021",
+      "start": 432000,
+      "end": 480000
+    },
+    "OR007@6_1.mat::chunk000": {
+      "relpath": "data/raw/CWRU/48k_drive_end_fault/OR007@6_1.mat",
+      "label": "ORF_007",
+      "start": 0,
+      "end": 48000
+    },
+    "OR007@6_1.mat::chunk001": {
+      "relpath": "data/raw/CWRU/48k_drive_end_fault/OR007@6_1.mat",
+      "label": "ORF_007",
+      "start": 48000,
+      "end": 96000
+    },
+    "OR007@6_1.mat::chunk002": {
+      "relpath": "data/raw/CWRU/48k_drive_end_fault/OR007@6_1.mat",
+      "label": "ORF_007",
+      "start": 96000,
+      "end": 144000
+    },
+    "OR007@6_1.mat::chunk003": {
+      "relpath": "data/raw/CWRU/48k_drive_end_fault/OR007@6_1.mat",
+      "label": "ORF_007",
+      "start": 144000,
+      "end": 192000
+    },
+    "OR007@6_1.mat::chunk004": {
+      "relpath": "data/raw/CWRU/48k_drive_end_fault/OR007@6_1.mat",
+      "label": "ORF_007",
+      "start": 192000,
+      "end": 240000
+    },
+    "OR007@6_1.mat::chunk005": {
+      "relpath": "data/raw/CWRU/48k_drive_end_fault/OR007@6_1.mat",
+      "label": "ORF_007",
+      "start": 240000,
+      "end": 288000
+    },
+    "OR007@6_1.mat::chunk006": {
+      "relpath": "data/raw/CWRU/48k_drive_end_fault/OR007@6_1.mat",
+      "label": "ORF_007",
+      "start": 288000,
+      "end": 336000
+    },
+    "OR007@6_1.mat::chunk007": {
+      "relpath": "data/raw/CWRU/48k_drive_end_fault/OR007@6_1.mat",
+      "label": "ORF_007",
+      "start": 336000,
+      "end": 384000
+    },
+    "OR007@6_1.mat::chunk008": {
+      "relpath": "data/raw/CWRU/48k_drive_end_fault/OR007@6_1.mat",
+      "label": "ORF_007",
+      "start": 384000,
+      "end": 432000
+    },
+    "OR007@6_1.mat::chunk009": {
+      "relpath": "data/raw/CWRU/48k_drive_end_fault/OR007@6_1.mat",
+      "label": "ORF_007",
+      "start": 432000,
+      "end": 480000
+    },
+    "OR014@6_1.mat::chunk000": {
+      "relpath": "data/raw/CWRU/48k_drive_end_fault/OR014@6_1.mat",
+      "label": "ORF_014",
+      "start": 0,
+      "end": 48000
+    },
+    "OR014@6_1.mat::chunk001": {
+      "relpath": "data/raw/CWRU/48k_drive_end_fault/OR014@6_1.mat",
+      "label": "ORF_014",
+      "start": 48000,
+      "end": 96000
+    },
+    "OR014@6_1.mat::chunk002": {
+      "relpath": "data/raw/CWRU/48k_drive_end_fault/OR014@6_1.mat",
+      "label": "ORF_014",
+      "start": 96000,
+      "end": 144000
+    },
+    "OR014@6_1.mat::chunk003": {
+      "relpath": "data/raw/CWRU/48k_drive_end_fault/OR014@6_1.mat",
+      "label": "ORF_014",
+      "start": 144000,
+      "end": 192000
+    },
+    "OR014@6_1.mat::chunk004": {
+      "relpath": "data/raw/CWRU/48k_drive_end_fault/OR014@6_1.mat",
+      "label": "ORF_014",
+      "start": 192000,
+      "end": 240000
+    },
+    "OR014@6_1.mat::chunk005": {
+      "relpath": "data/raw/CWRU/48k_drive_end_fault/OR014@6_1.mat",
+      "label": "ORF_014",
+      "start": 240000,
+      "end": 288000
+    },
+    "OR014@6_1.mat::chunk006": {
+      "relpath": "data/raw/CWRU/48k_drive_end_fault/OR014@6_1.mat",
+      "label": "ORF_014",
+      "start": 288000,
+      "end": 336000
+    },
+    "OR014@6_1.mat::chunk007": {
+      "relpath": "data/raw/CWRU/48k_drive_end_fault/OR014@6_1.mat",
+      "label": "ORF_014",
+      "start": 336000,
+      "end": 384000
+    },
+    "OR014@6_1.mat::chunk008": {
+      "relpath": "data/raw/CWRU/48k_drive_end_fault/OR014@6_1.mat",
+      "label": "ORF_014",
+      "start": 384000,
+      "end": 432000
+    },
+    "OR014@6_1.mat::chunk009": {
+      "relpath": "data/raw/CWRU/48k_drive_end_fault/OR014@6_1.mat",
+      "label": "ORF_014",
+      "start": 432000,
+      "end": 480000
+    },
+    "OR021@6_1.mat::chunk000": {
+      "relpath": "data/raw/CWRU/48k_drive_end_fault/OR021@6_1.mat",
+      "label": "ORF_021",
+      "start": 0,
+      "end": 48000
+    },
+    "OR021@6_1.mat::chunk001": {
+      "relpath": "data/raw/CWRU/48k_drive_end_fault/OR021@6_1.mat",
+      "label": "ORF_021",
+      "start": 48000,
+      "end": 96000
+    },
+    "OR021@6_1.mat::chunk002": {
+      "relpath": "data/raw/CWRU/48k_drive_end_fault/OR021@6_1.mat",
+      "label": "ORF_021",
+      "start": 96000,
+      "end": 144000
+    },
+    "OR021@6_1.mat::chunk003": {
+      "relpath": "data/raw/CWRU/48k_drive_end_fault/OR021@6_1.mat",
+      "label": "ORF_021",
+      "start": 144000,
+      "end": 192000
+    },
+    "OR021@6_1.mat::chunk004": {
+      "relpath": "data/raw/CWRU/48k_drive_end_fault/OR021@6_1.mat",
+      "label": "ORF_021",
+      "start": 192000,
+      "end": 240000
+    },
+    "OR021@6_1.mat::chunk005": {
+      "relpath": "data/raw/CWRU/48k_drive_end_fault/OR021@6_1.mat",
+      "label": "ORF_021",
+      "start": 240000,
+      "end": 288000
+    },
+    "OR021@6_1.mat::chunk006": {
+      "relpath": "data/raw/CWRU/48k_drive_end_fault/OR021@6_1.mat",
+      "label": "ORF_021",
+      "start": 288000,
+      "end": 336000
+    },
+    "OR021@6_1.mat::chunk007": {
+      "relpath": "data/raw/CWRU/48k_drive_end_fault/OR021@6_1.mat",
+      "label": "ORF_021",
+      "start": 336000,
+      "end": 384000
+    },
+    "OR021@6_1.mat::chunk008": {
+      "relpath": "data/raw/CWRU/48k_drive_end_fault/OR021@6_1.mat",
+      "label": "ORF_021",
+      "start": 384000,
+      "end": 432000
+    },
+    "OR021@6_1.mat::chunk009": {
+      "relpath": "data/raw/CWRU/48k_drive_end_fault/OR021@6_1.mat",
+      "label": "ORF_021",
+      "start": 432000,
+      "end": 480000
+    }
+  },
+  "splits": {
+    "train": [
+      "Normal_1.mat::chunk005",
+      "Normal_1.mat::chunk006",
+      "Normal_1.mat::chunk000",
+      "Normal_1.mat::chunk007",
+      "Normal_1.mat::chunk003",
+      "Normal_1.mat::chunk002",
+      "Normal_1.mat::chunk004",
+      "Normal_1.mat::chunk009",
+      "B007_1.mat::chunk004",
+      "B007_1.mat::chunk008",
+      "B007_1.mat::chunk002",
+      "B007_1.mat::chunk006",
+      "B007_1.mat::chunk005",
+      "B007_1.mat::chunk009",
+      "B007_1.mat::chunk007",
+      "B007_1.mat::chunk003",
+      "B014_1.mat::chunk000",
+      "B014_1.mat::chunk009",
+      "B014_1.mat::chunk008",
+      "B014_1.mat::chunk004",
+      "B014_1.mat::chunk007",
+      "B014_1.mat::chunk002",
+      "B014_1.mat::chunk003",
+      "B014_1.mat::chunk005",
+      "B021_1.mat::chunk006",
+      "B021_1.mat::chunk001",
+      "B021_1.mat::chunk002",
+      "B021_1.mat::chunk007",
+      "B021_1.mat::chunk009",
+      "B021_1.mat::chunk005",
+      "B021_1.mat::chunk008",
+      "B021_1.mat::chunk004",
+      "IR007_1.mat::chunk003",
+      "IR007_1.mat::chunk002",
+      "IR007_1.mat::chunk006",
+      "IR007_1.mat::chunk005",
+      "IR007_1.mat::chunk001",
+      "IR007_1.mat::chunk004",
+      "IR007_1.mat::chunk008",
+      "IR007_1.mat::chunk009",
+      "IR014_1.mat::chunk000",
+      "IR014_1.mat::chunk005",
+      "IR014_1.mat::chunk008",
+      "IR014_1.mat::chunk001",
+      "IR014_1.mat::chunk002",
+      "IR014_1.mat::chunk007",
+      "IR014_1.mat::chunk009",
+      "IR014_1.mat::chunk006",
+      "IR021_1.mat::chunk003",
+      "IR021_1.mat::chunk007",
+      "IR021_1.mat::chunk004",
+      "IR021_1.mat::chunk009",
+      "IR021_1.mat::chunk001",
+      "IR021_1.mat::chunk008",
+      "IR021_1.mat::chunk006",
+      "IR021_1.mat::chunk002",
+      "OR007@6_1.mat::chunk000",
+      "OR007@6_1.mat::chunk006",
+      "OR007@6_1.mat::chunk005",
+      "OR007@6_1.mat::chunk003",
+      "OR007@6_1.mat::chunk004",
+      "OR007@6_1.mat::chunk008",
+      "OR007@6_1.mat::chunk009",
+      "OR007@6_1.mat::chunk002",
+      "OR014@6_1.mat::chunk007",
+      "OR014@6_1.mat::chunk006",
+      "OR014@6_1.mat::chunk003",
+      "OR014@6_1.mat::chunk008",
+      "OR014@6_1.mat::chunk001",
+      "OR014@6_1.mat::chunk000",
+      "OR014@6_1.mat::chunk005",
+      "OR014@6_1.mat::chunk002",
+      "OR021@6_1.mat::chunk000",
+      "OR021@6_1.mat::chunk002",
+      "OR021@6_1.mat::chunk004",
+      "OR021@6_1.mat::chunk006",
+      "OR021@6_1.mat::chunk009",
+      "OR021@6_1.mat::chunk001",
+      "OR021@6_1.mat::chunk003",
+      "OR021@6_1.mat::chunk008"
+    ],
+    "val": [
+      "Normal_1.mat::chunk001",
+      "B007_1.mat::chunk000",
+      "B014_1.mat::chunk006",
+      "B021_1.mat::chunk000",
+      "IR007_1.mat::chunk000",
+      "IR014_1.mat::chunk004",
+      "IR021_1.mat::chunk000",
+      "OR007@6_1.mat::chunk001",
+      "OR014@6_1.mat::chunk009",
+      "OR021@6_1.mat::chunk007"
+    ],
+    "test": [
+      "Normal_1.mat::chunk008",
+      "B007_1.mat::chunk001",
+      "B014_1.mat::chunk001",
+      "B021_1.mat::chunk003",
+      "IR007_1.mat::chunk007",
+      "IR014_1.mat::chunk003",
+      "IR021_1.mat::chunk005",
+      "OR007@6_1.mat::chunk007",
+      "OR014@6_1.mat::chunk004",
+      "OR021@6_1.mat::chunk005"
+    ]
+  }
+}
