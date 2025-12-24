@@ -7,6 +7,11 @@
 
 [![Release](https://img.shields.io/github/v/release/Envaini/NDM_Project?display_name=tag)](https://github.com/Envaini/NDM_Project/releases)
 
+## Lộ trình (Phase Plan)
+Phase Plan là lộ trình triển khai đồ án (mục tiêu, nội dung, kết quả theo từng phase).
+- [Đọc bản Phase Plan (PDF)](Plan/Phase_Plan.pdf)
+
+
 ## Download (Release)
 
 - **All-in-one:** [NDM_Project_full.zip](https://github.com/Envaini/NDM_Project/releases/latest/download/NDM_Project_full.zip)
