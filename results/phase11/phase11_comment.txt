@@ -1,0 +1,24 @@
+PHASE 11 - NHẬN XÉT DOMAIN SHIFT (CWRU loads)
+
+- Trung bình accuracy cùng load (đường chéo): 0.9996
+- Trung bình accuracy khác load (off-diagonal): 0.7118
+- Mức giảm trung bình (diag - off): 0.2878
+
+Worst cross-load pairs (train -> test):
+  + 3 -> 1: acc=0.5692
+  + 0 -> 1: acc=0.6283
+  + 2 -> 1: acc=0.6292
+  + 0 -> 3: acc=0.6358
+  + 0 -> 2: acc=0.6408
+
+Best cross-load pairs (train -> test):
+  + 3 -> 2: acc=0.9342
+  + 2 -> 3: acc=0.8967
+  + 1 -> 2: acc=0.8075
+  + 3 -> 0: acc=0.7533
+  + 2 -> 0: acc=0.6867
+
+Giải thích ngắn:
+- Load khác nhau làm thay đổi chế độ tải và đặc tính dao động, nên phân phối tín hiệu (biên độ, phổ tần, năng lượng theo dải) bị lệch.
+- Vì vậy mô hình học trên load A thường giảm hiệu quả khi test sang load B (domain shift).
+- Fusion deep-shallow thường ổn định hơn 1 nhánh đơn vì deep bắt đặc trưng mức cao, shallow bắt texture cục bộ; khi domain đổi, hai nhánh bù nhau.

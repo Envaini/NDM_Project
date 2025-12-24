@@ -1,0 +1,2 @@
+method,fused_best_C,val_acc,val_macro_f1,test_acc,test_macro_f1,deep_dim,shallow_dim,fused_dim
+feature_level_concat,0.1,1.0,1.0,1.0,1.0,128,23,151

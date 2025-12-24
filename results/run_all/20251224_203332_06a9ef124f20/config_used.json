@@ -1,0 +1,39 @@
+{
+  "seed": 42,
+  "cwru_root": "data/raw/CWRU",
+  "out_root": "results/run_all",
+  "paper_core": {
+    "load": 0,
+    "n_per_class": 120,
+    "seg_len": 4800,
+    "sr": 48000,
+    "test_size": 0.2,
+    "val_size": 0.2
+  },
+  "lpq_R": 7,
+  "b_list": [
+    1,
+    2,
+    4,
+    6,
+    8,
+    10,
+    12
+  ],
+  "alpha_list": [
+    0.1,
+    0.2,
+    0.3,
+    0.4,
+    0.5,
+    0.6,
+    0.7,
+    0.8,
+    0.9
+  ],
+  "use_vggish": true,
+  "run_phase10": false,
+  "phase10_dir": "results/phase10",
+  "run_phase11": true,
+  "phase11_out_dir": "results/phase11"
+}

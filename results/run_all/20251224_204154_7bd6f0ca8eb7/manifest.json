@@ -1,0 +1,28 @@
+{
+  "timestamp": "2025-12-24T20:44:54",
+  "seed": 42,
+  "config_path": "configs/phase12_run_all.json",
+  "config_sha256": "7bd6f0ca8eb79f6dd6cd7887695cc847e03fd85259a0e0238fcc6bcd2faa5851",
+  "run_id": "20251224_204154_7bd6f0ca8eb7",
+  "git_commit": "93eb859faaafae0d5340d19053087882490b6885",
+  "versions": {
+    "python": "3.11.14",
+    "numpy": "1.26.4",
+    "pandas": "2.3.3",
+    "scikit-learn": "1.8.0",
+    "scipy": "1.16.3",
+    "matplotlib": "3.10.8",
+    "torch": "2.5.1",
+    "torchaudio": "2.5.1a0",
+    "librosa": "0.11.0"
+  },
+  "artifacts": [
+    "results/run_all/20251224_204154_7bd6f0ca8eb7/paper_core_metrics.csv",
+    "results/run_all/20251224_204154_7bd6f0ca8eb7/ws_sweep.csv",
+    "results/run_all/20251224_204154_7bd6f0ca8eb7/ablation_summary.csv",
+    "results/run_all/20251224_204154_7bd6f0ca8eb7/metrics.csv",
+    "results/run_all/20251224_204154_7bd6f0ca8eb7/cm_shallow_b1.png",
+    "results/phase11/heatmap_domain_shift.png",
+    "results/phase11/phase11_diag_off_stats.csv"
+  ]
+}

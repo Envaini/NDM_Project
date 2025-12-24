@@ -1,0 +1,54 @@
+{
+  "class_names": [
+    "BF_007",
+    "BF_014",
+    "BF_021",
+    "H",
+    "IRF_007",
+    "IRF_014",
+    "IRF_021",
+    "ORF_007",
+    "ORF_014",
+    "ORF_021"
+  ],
+  "score_level": {
+    "shallow_best": {
+      "C": 1.0,
+      "val_acc": 1.0,
+      "val_macro_f1": 1.0
+    },
+    "best_alpha": {
+      "alpha": 0.0,
+      "val_acc": 1.0,
+      "val_macro_f1": 1.0
+    },
+    "test": {
+      "acc": 1.0,
+      "macro_f1": 1.0
+    },
+    "saved": {
+      "metrics_csv": "C:\\Users\\ADMIN\\Desktop\\NDM_Project\\results\\fusion_score_metrics.csv",
+      "cm_png": "C:\\Users\\ADMIN\\Desktop\\NDM_Project\\results\\cm_fusion_score.png"
+    }
+  },
+  "feature_level": {
+    "best": {
+      "C": 0.1,
+      "val_acc": 1.0,
+      "val_macro_f1": 1.0
+    },
+    "test": {
+      "acc": 1.0,
+      "macro_f1": 1.0
+    },
+    "dims": {
+      "deep": 128,
+      "shallow": 23,
+      "fused": 151
+    },
+    "saved": {
+      "metrics_csv": "C:\\Users\\ADMIN\\Desktop\\NDM_Project\\results\\fusion_feature_metrics.csv",
+      "cm_png": "C:\\Users\\ADMIN\\Desktop\\NDM_Project\\results\\cm_fusion_feature.png"
+    }
+  }
+}
