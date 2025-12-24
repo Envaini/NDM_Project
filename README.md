@@ -1,5 +1,10 @@
 ﻿# NDM Project — Bearing Condition Classification (CWRU)
 
+**Đồ án:** Phân loại trạng thái máy móc từ tín hiệu rung  
+**Bài báo:** *Vibration signal analysis for rolling bearings faults diagnosis based on deep–shallow features fusion*  
+**Tài liệu môn học:** Bishop — *Pattern Recognition and Machine Learning* (2006)
+
+
 [![Release](https://img.shields.io/github/v/release/Envaini/NDM_Project?display_name=tag)](https://github.com/Envaini/NDM_Project/releases)
 
 ## Download (Release)
@@ -13,9 +18,6 @@
 conda activate ndm
 # notebook
 
-**Đồ án:** Phân loại trạng thái máy móc từ tín hiệu rung  
-**Bài báo:** *Vibration signal analysis for rolling bearings faults diagnosis based on deep–shallow features fusion*  
-**Tài liệu môn học:** Bishop — *Pattern Recognition and Machine Learning* (2006)
 
 Mục tiêu: HIỂU → TÁI HIỆN (paper-core) → GIẢI THÍCH → MỞ RỘNG
 
