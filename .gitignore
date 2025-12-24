@@ -31,3 +31,12 @@ results/cache_phase9/
 # === allow tracking results on GitHub ===
 !results/
 !results/**
+# --- Ignore heavy data for Release ZIP workflow ---
+data/raw/CWRU/**
+results/**
+
+# an toàn thêm:
+*.mat
+*.zip
+*.pt
+*.pth
