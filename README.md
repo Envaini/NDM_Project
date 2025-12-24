@@ -9,9 +9,9 @@
 
 ## Download (Release)
 
-- **All-in-one:** [NDM_Project_full.zip](https://github.com/Envaini/NDM_Project/releases/download/v0.1.0/NDM_Project_full.zip)
-- **Dataset (CWRU 48k, loads 0/1/2/3):** [CWRU_dataset.zip](https://github.com/Envaini/NDM_Project/releases/download/v0.1.0/CWRU_dataset.zip)
-- **Results & artifacts:** [results_artifacts.zip](https://github.com/Envaini/NDM_Project/releases/download/v0.1.0/results_artifacts.zip)
+- **All-in-one:** [NDM_Project_full.zip](https://github.com/Envaini/NDM_Project/releases/latest/download/NDM_Project_full.zip)
+- **Dataset (CWRU 48k, loads 0/1/2/3):** [CWRU_dataset.zip](https://github.com/Envaini/NDM_Project/releases/latest/download/CWRU_dataset.zip)
+- **Results & artifacts:** [results_artifacts.zip](https://github.com/Envaini/NDM_Project/releases/latest/download/results_artifacts.zip)
 
 ## Run
 ```bash
