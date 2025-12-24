@@ -26,3 +26,5 @@ results/run_all/
 results/cache_phase9/
 *.npy
 *.pt
+# Track VS Code UTF-8 settings
+!.vscode/settings.json
