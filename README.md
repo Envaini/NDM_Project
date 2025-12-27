@@ -37,7 +37,7 @@ Mục tiêu: HIỂU → TÁI HIỆN (paper-core) → GIẢI THÍCH → MỞ RỘ
 Paper-core pipeline: Log-Mel → (MBH-LPQ + VGGish) → PCA → EDA → cosine matching → WS sweep
 
 ## Structure
-Plan/configs/ data/ docs/ experiments/ notebooks/ original_paper/ papers/ report/ results/ src/ tests/
+Plan/ configs/ data/ docs/ experiments/ notebooks/ original_paper/ papers/ report/ results/ src/ tests/
 
 ## Local environment
 - Anaconda env: ndm
