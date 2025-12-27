@@ -1,7 +1,9 @@
 ﻿# NDM Project — Bearing Condition Classification (CWRU)
 
 **Đồ án:** Chẩn đoán lỗi ổ lăn từ tín hiệu rung dựa trên kết hợp đặc trưng sâu và nông 
-**Bài báo tham thiếu:** *Vibration signal analysis for rolling bearings faults diagnosis based on deep–shallow features fusion*  
+
+**Bài báo tham thiếu:** *Vibration signal analysis for rolling bearings faults diagnosis based on deep–shallow features fusion*
+
 **Tài liệu môn học:** Bishop — *Pattern Recognition and Machine Learning* (2006)
 
 
