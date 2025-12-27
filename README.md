@@ -13,6 +13,12 @@
 Phase Plan là lộ trình triển khai đồ án (mục tiêu, nội dung, kết quả theo từng phase).
 - [Đọc bản Phase Plan (PDF)](Plan/Phase_Plan.pdf)
 
+## Report (báo cáo ngắn)
+
+Report ngắn: trình bày Abstract, ý nghĩa ứng dụng và đóng góp của hướng tiếp cận (bài báo), trục xương sống (sơ đồ), nội dung đồ án, và tóm tắt slide 2–21.
+
+- 📄 [Đọc Report (PDF)](report/Report.pdf)
+
 
 ## Download (Release)
 
