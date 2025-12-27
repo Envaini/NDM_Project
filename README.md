@@ -37,7 +37,8 @@ conda activate ndm
 
 Mục tiêu: HIỂU → TÁI HIỆN (paper-core) → GIẢI THÍCH → MỞ RỘNG
 
-Paper-core pipeline: Log-Mel → (MBH-LPQ + VGGish) → PCA → EDA → cosine matching → WS sweep
+Paper-core (bám theo): Log-Mel → (MBH-LPQ + nhánh sâu) → cosine matching → WS fusion (α sweep) + b sweep  
+Ghi chú: bài báo có bước PCA → EDA trước cosine; trong đồ án em giữ cơ chế matching + fusion và thực nghiệm theo output trong slide.
 
 ## Structure
 Plan/ configs/ data/ docs/ experiments/ notebooks/ original_paper/ papers/ report/ results/ src/ tests/
