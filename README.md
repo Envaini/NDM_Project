@@ -6,6 +6,9 @@
 
 **Tài liệu môn học:** Bishop — *Pattern Recognition and Machine Learning* (2006)
 
+**Link bài báo tham chiếu:** [Nature — s41598-025-93133-y](https://www.nature.com/articles/s41598-025-93133-y)  
+
+**Link dataset:** [CWRU Bearing Data Center — Download](https://engineering.case.edu/bearingdatacenter/download-data-file)
 
 [![Release](https://img.shields.io/github/v/release/Envaini/NDM_Project?display_name=tag)](https://github.com/Envaini/NDM_Project/releases)
 
